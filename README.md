@@ -1,2 +1,2 @@
-# nubox
-um simples aplicativo de conversas
+# Nubox
+Um simples aplicativo de conversas

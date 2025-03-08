@@ -1,0 +1,31 @@
+{
+  "name": "nubox",
+  "version": "1.0.0",
+  "description": "um simples aplicativo de conversas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nubi-Prey/nubox.git"
+  },
+  "author": "Nubi Prey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nubi-Prey/nubox/issues"
+  },
+  "homepage": "https://github.com/Nubi-Prey/nubox#readme"
+}
