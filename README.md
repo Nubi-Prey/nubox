@@ -1,2 +1,2 @@
 # Nubox
-Um simples aplicativo de conversas
+Um simples chatbot com IA ultilizando o Deepseek-V3
