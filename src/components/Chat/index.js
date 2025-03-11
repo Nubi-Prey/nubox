@@ -13,7 +13,6 @@ export default function Chat(){
     function write(data){
         const {message, id} = data;
         if(!message) return;
-        console.log(data)
 
         setMessages((prevMessages) => [...prevMessages, {...data}]);
 
@@ -23,8 +22,11 @@ export default function Chat(){
 
     function submit(data){
         const {message} = data;
+        const loadingMessage = document.getElementById('loading')
         if(!message) return;
 
+        if(loadingMessage) return
+        
         write(data)
 
         setText('');
@@ -49,6 +51,7 @@ export default function Chat(){
         <div id="chat-container" class='w-full flex flex-col h-full relative'>
 
             <div id="chat-messages" class='md:items-center p-1 flex flex-col h-full max-h-full overflow-auto overflow-x-hidden'>
+                <Message userName='Nubox' message='Olá! Como posso te ajudar?' user='nubox'/>
                 {messages.map((msg, index) => 
                     <Message key={index} {... msg}/>
                 )}

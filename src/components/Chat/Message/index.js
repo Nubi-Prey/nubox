@@ -5,7 +5,6 @@ import Nubox from '/public/images/Nubox.svg';
 export default function Message(props){
     const { userImage, message, userName, user, id} = props;
     const bgColor = user === 'client' ? 'bg-(--d-1)' : 'bg-(--d-2)';
-    console.log(props)
 
     return (
         
