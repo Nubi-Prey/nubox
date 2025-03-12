@@ -58,7 +58,7 @@ export default function Chat(){
             </div>
 
             <div id="chat-input" class='p-5 bottom-0 w-full flex justify-center items-center '>
-                <form onSubmit={() => {submit({message: text, user: 'client'})}} class='max-w-150 bg-(--d-1) p-5 w-full flex justify-around items-center rounded-4xl'>
+                <form onSubmit={(e) => {e.preventDefault(); submit({message: text, user: 'client'})}} class='max-w-150 bg-(--d-1) p-5 w-full flex justify-around items-center rounded-4xl'>
                     
                     <textarea id='message' onChange={(e) => setText(e.target.value)} onKeyDown={handleKeyDown} type="text" placeholder="Digite sua mensagem" class='text-sm w-8/10 p-1 bg-(--d-2) h-8 rounded-xl border-(--g-1) border  focus:outline-none '/>
                     
