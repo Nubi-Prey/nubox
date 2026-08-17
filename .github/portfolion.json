@@ -1,0 +1,6 @@
+{
+  "title": "Nubox",
+  "description": "Nubox é um protótipo de um chatbot com IA ultilizando o Deepseek-V3",
+  "icon": "https://raw.githubusercontent.com/Nubi-Prey/nubox/refs/heads/main/public/images/Nubox.svg",
+  "visitLink": "https://nubox.vercel.app"
+}
